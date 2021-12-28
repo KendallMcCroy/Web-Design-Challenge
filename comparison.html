@@ -1,4 +1,4 @@
-<!--Humidty Page-->
+<!--Landing/Home Page-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -33,13 +33,13 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="maxTemp.html">Max Temperature</a></li>
-                            <li><a class="dropdown-item" href="humidty.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
                             <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
                             <li><a class="dropdown-item" href="windSpeed.html">Wind Speed</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparsions.html">Comparsions</a>
+                        <a class="nav-link" href="comparison.html">Comparison</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data</a>
@@ -49,6 +49,50 @@
         </nav>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <!--Content Box-->
+            <div class="box">
+                <h2>Comparison: Latitude vs X</h2>
+                <hr>
+                <p><strong>Click</strong> on any plot to get an in-depth analysis</strong></p>
+                <div class="container" style="padding-bottom: 10px;">
+                    <div class="row">
+                        <div class="col-lg-6" style="padding-bottom: 20px;">
+                            <div class="title">vs. Max Temperature</div>
+                            <a href="maxTemp.html">
+                            <img src="./Resources/assets/images/Fig1.png" class="img-thumbnail" height="200" width="200" />
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="title">vs. Humidity</div>
+                            <a href="humidity.html">
+                            <img src="./Resources/assets/images/Fig2.png" class="img-thumbnail" height="200" width="200" />
+                            </a>
+                        </div>
+                        <div class="row" style="padding-bottom: 20px;">
+                            <div class="col-lg-6">
+                                <div class="title">vs. Cloudiness</div>
+                                <a href="cloudiness.html">
+                                <img src="./Resources/assets/images/Fig3.png" class="img-thumbnail" height="200" width="200" />
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="title">vs. Wind Speed</div>
+                                <a href="windSpeed.html">
+                                <img src="./Resources/assets/images/Fig4.png" class="img-thumbnail" height="200" width="200" />
+                                </a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>    
+        </div>
+    
+    </div>
+
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
