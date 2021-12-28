@@ -1,6 +1,6 @@
+<!--Landing/Home Page-->
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,48 +16,46 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="visualiztions.html" id="navbarDropdownMenuLink"
-                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Visualizations
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="maxTemp.html">Max Temperature</a></li>
-                        <li><a class="dropdown-item" href="humidty.html">Humidity</a></li>
-                        <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                        <li><a class="dropdown-item" href="windSpeed.html">Wind Speed</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="comparsions.html">Comparsions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plots
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="maxTemp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="humidty.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="windSpeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparsions.html">Comparsions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="container-md">
         <div class="row">
             <div class="col-lg-7 col-md-12">
                 <div class="container">
                     <h3 class="title">Summary: Latitude vs. X</h3>
                     <hr>
-                    <img src="./Resources/assets/images/Fig1.png" class="Visualization float-left" height="200" width="200"
-                        ALIGN="left" HSPACE="15" VSPACE="15" />
+                    <img src="./Resources/assets/images/Fig1.png" class="Visualization float-left" height="200"
+                        width="200" ALIGN="left" HSPACE="15" VSPACE="15" />
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                         classical
                         Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
@@ -90,32 +88,36 @@
                         <div class="row" style="padding-bottom: 20px;">
                             <div class="col-xs-3 col-sm-3 col-md-6">
                                 <a href="maxTemp.html">
-                                <img src="./Resources/assets/images/Fig1.png" class="img-thumbnail" height="200" width="200" />
+                                    <img src="./Resources/assets/images/Fig1.png" class="img-thumbnail" height="200"
+                                        width="200" />
                                 </a>
                             </div>
                             <div class="col-xs-3 col-sm-3 col-md-6">
                                 <a href="humidty.html">
-                                <img src="./Resources/assets/images/Fig2.png" class="img-thumbnail" height="200" width="200" />
+                                    <img src="./Resources/assets/images/Fig2.png" class="img-thumbnail" height="200"
+                                        width="200" />
                                 </a>
                             </div>
                             <div class="row" style="padding-bottom: 20px;">
                                 <div class="col-xs-3 col-sm-3 col-md-6">
                                     <a href="cloudiness.html">
-                                    <img src="./Resources/assets/images/Fig3.png" class="img-thumbnail" height="200" width="200" />
+                                        <img src="./Resources/assets/images/Fig3.png" class="img-thumbnail" height="200"
+                                            width="200" />
                                     </a>
                                 </div>
                                 <div class="col-xs-3 col-sm-3 col-md-6">
                                     <a href="windSpeed.html">
-                                    <img src="./Resources/assets/images/Fig4.png" class="img-thumbnail" height="200" width="200" />
+                                        <img src="./Resources/assets/images/Fig4.png" class="img-thumbnail" height="200"
+                                            width="200" />
                                     </a>
                                 </div>
                             </div>
-                
+
                         </div>
                     </div>
-            
+
                 </div>
-            
+
             </div>
         </div>
     </div>
