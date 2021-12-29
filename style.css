@@ -1,0 +1,14 @@
+/* Navbar */
+
+.navigation {
+    background: violet;
+}
+
+.collapse { 
+    background-color: rgb(238, 224, 103);
+    
+}
+
+.navbar-brand {
+    background: turquoise;
+}
